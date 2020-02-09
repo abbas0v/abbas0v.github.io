@@ -1,1 +1,25 @@
-theme: jekyll-theme-minimal
+permalink: /:year:month:day/:title
+url: abbas0v.github.io
+baseurl: /
+
+# variables
+name: Musa Abbasov
+description: Web Developer form Azerbaijan
+google_verification: null
+
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable : true
